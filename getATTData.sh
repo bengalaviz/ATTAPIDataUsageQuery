@@ -136,10 +136,6 @@ REFERER="Referer: https://www.att.com/my"
 USER_AGENT="User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
 XRB_MYATT="x-requested-by: MYATT"
 
-REFERER="Referer: https://www.att.com/my"
-USER_AGENT="User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
-XRB_MYATT="x-requested-by: MYATT"
-
 LOGIN_JSON='{"CommonData":{"AppName":"R-MYATT"},"UserId":"'${USERNAME}'","Password":"'${PASSWORD}'","RememberMe":"Y"}'
 
 log_writer "Logging into initial homepage to store required cookies."
