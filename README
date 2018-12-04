@@ -1,0 +1,25 @@
+AT&T Consumer Data API Pull
+
+This is a bash script that will log into your AT&T account and try to pull your
+data usage.
+
+Required Programs
+Needs curl, jq, tee and bc for the script to work.
+
+THIS IS NOT SUPPORTED BY AT&T. AT ANY TIME THIS SCRIPT COULD BREAK WHICH WILL
+REQUIRED CHANGES TO FIX.
+
+IT MAY NOT WORK FOR YOU. There is a field in the script called LOGIN_DATA. I
+grabbed this from watching chrome inspector during the call to
+'https://cprodmasx.att.com/commonLogin/igate_wam/multiLogin.do'. It may need to
+be changed for a correct login to happen for you.
+
+To install, you need to change the HOME variable to where this script is located
+on your computer and update the PATH variable to where the required programs
+are installed if not already on your PATH.
+
+i.e.  HOME=/app/attdata
+      PATH=/app/attdata/bin:${PATH}
+
+This will make sure that when you schedule the script from crontab, it will work
+correctly.
