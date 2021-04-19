@@ -1,3 +1,5 @@
+UPDATE : This does not work anymore because of the 2 factor authentication requirement. :(
+
 AT&T Consumer Data API Pull
 
 This is a bash script that will log into your AT&T account and try to pull your
